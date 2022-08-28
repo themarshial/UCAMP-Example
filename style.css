@@ -26,6 +26,7 @@ body {
     background-color: red;
     border-radius: 25px;
     padding: 10px;
+    cursor: pointer;
 }
 /**************section***************/
 /**************section 1***************/
@@ -119,49 +120,7 @@ button{
     
     height: 800px;
 }
-@media (max-width:1110px) {
-    .container-section-anuncio > h1{
-        font-size: 30px;
-    }
-    .container-section-anuncio > h2{
-        font-size: 20px;
-    }
-    .section-button-1{
-        font-size: 13px;
-        width: 150px;
-    }
-    .section-button-2{
-        font-size: 13px;
-        width: 150px;
-    }
-    .section-2{
-        height: 1110px;
-    }
-}
-@media (max-width:740px) {
-    .container-section-anuncio{
-        top: 35%;
-    }
-    .container-section-anuncio > h1{
-        font-size: 30px;
-    }
-    .container-section-anuncio > h2{
-        font-size: 20px;
-    }
-    .section-button-1{
-        font-size: 13px;
-        width: 140px;
-        height: 40px;
-    }
-    .section-button-2{
-        font-size: 13px;
-        width: 140px;
-        height: 40px;
-    }
-    .section-2{
-        height: 2200px;
-    }
-}
+
 
 .container-section-2{
     position: absolute;
@@ -232,7 +191,7 @@ img{
 .text-container-section-3{
     /* background-color: black; */
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 25%;
     right: 25%;
 
@@ -244,11 +203,99 @@ img{
     font-size: 35px;
 }
 
-.container-button-section-3>button{
+.container-button-section-3{
     background-color: #c94f17;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    left: 30%;
+    right: 30%;
+    /* top: 50%;
+    left: 40%; */
     /* right: 3%; */
 }
+footer{
+    background-color: #111;
+}
+.container-footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 10px;
+}
+.logos-footer-1{
+    display: flex;
+    
+}
+.img-footer-1 > img{
+    
+    width: 45px;
+    height: 35px;
+}
+.espacio-logo-footer-1{
+    width: 30%;
+}
+.email-footer-1{
+    color: white;
+}
 
+@media (max-width:1110px) {
+    /*seccion 1*/
+    .container-section-anuncio > h1{
+        font-size: 30px;
+    }
+    .container-section-anuncio > h2{
+        font-size: 20px;
+    }
+    .section-button-1{
+        font-size: 13px;
+        width: 150px;
+    }
+    .section-button-2{
+        font-size: 13px;
+        width: 150px;
+    }
+    /*seccion 2*/
+    .section-2{
+        height: 1110px;
+    }
+    /*seccion 3*/
+    .container-button-section-3{
+        left: 25%;
+        
+    }
+    
+}
+@media (max-width:740px) {
+    /*seccion 1*/
+    .container-section-anuncio{
+        top: 35%;
+    }
+    .container-section-anuncio > h1{
+        font-size: 30px;
+    }
+    .container-section-anuncio > h2{
+        font-size: 20px;
+    }
+    .section-button-1{
+        font-size: 13px;
+        width: 140px;
+        height: 40px;
+    }
+    .section-button-2{
+        font-size: 13px;
+        width: 140px;
+        height: 40px;
+    }
+    /*seccion 2*/
+    .section-2{
+        height: 2200px;
+    }
+    /*seccion 3*/
+    .text-container-section-3 > h1{
+        font-size: 20px;
+    }
+    .container-button-section-3{
+        left: 20%;
+        height: 50px;
+        width: 200px;
+    }
+}
