@@ -215,26 +215,43 @@ img{
 footer{
     background-color: #111;
 }
-.container-footer{
-    height: 150px;
+ .container-footer{
+
+    /* height: 150px;
+       
+    padding: 10px; */
+}
+.container-block-footer{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     padding: 10px;
 }
 .logos-footer-1{
-    display: flex;
-    
+    display: flex;   
 }
 .img-footer-1 > img{
     
     width: 45px;
     height: 35px;
 }
-.espacio-logo-footer-1{
-    width: 30%;
-}
 .email-footer-1{
     color: white;
+}
+
+/* .espacio-logo-footer-1{
+    width: 10px;
+} */
+
+.container-block-footer-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.space-container-block-footer-2{
+    width: 50%;
+}
+.container-block-footer-2 > div span{
+    color: rgb(141, 139, 139);
 }
 
 @media (max-width:1110px) {
