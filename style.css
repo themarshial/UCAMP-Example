@@ -1,0 +1,257 @@
+body {
+    margin: 0px;
+}
+.container-header{
+    color: white;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: 'DynaPuff', cursive;
+    /* font-family: 'Fraunces', serif; */
+}
+.header-1{
+    width: 50%;
+    text-align: center;
+}
+.header-2{
+    width: 50%;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-button{
+    background-color: red;
+    border-radius: 25px;
+    padding: 10px;
+}
+/**************section***************/
+/**************section 1***************/
+.container-video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    
+}
+.video-section{
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+}
+/* .container-video{
+    position: relative;
+} */
+
+.container-section-anuncio{
+    color: white;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    text-align: center;
+    /* background-color: rgba(240, 179, 81, 0.5); */
+    transform: translateY(-50%);
+}
+
+.container-section{
+    background-color: black;
+}
+button{
+    color: white;
+
+    font-size: 20px;
+    height: 65px;
+    width: 250px;
+    border-radius: 35px;
+    border: 0;
+}
+.section-button-1 {
+    background-color: brown; 
+}
+.section-button-2{
+    background-color: chocolate;
+}
+.container-section-anuncio h1{
+    font-size: 55px;
+    margin: 0px;
+}
+.container-section-anuncio h2{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+.footer-section{
+    background-color: #1f1f1f;
+    position: absolute;
+    width: 100%;
+    height: 200px; 
+    bottom: 0px;
+    transform: rotate(-3deg);
+    margin: 0px;
+}
+.container-footer{
+    
+
+}
+.logos-section{
+    background: linear-gradient(to right, #222, black ); 
+    height: 150px;
+    display: flex;
+    z-index: 9;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+.logos-section> div img{
+    width: 80px;
+    height: 80px;
+    margin: 35px 12px;
+    
+}
+.imagen-hover:hover{
+    transform: scale(1.1);
+    transition: transform .3s ease-out;
+}
+
+/**************section 2***************/
+.section-2{
+    position: relative;
+    /* background-color:blue; */
+    background: linear-gradient(to right, #0a57a3, #063563); 
+    
+    height: 800px;
+}
+@media (max-width:1110px) {
+    .container-section-anuncio > h1{
+        font-size: 30px;
+    }
+    .container-section-anuncio > h2{
+        font-size: 20px;
+    }
+    .section-button-1{
+        font-size: 13px;
+        width: 150px;
+    }
+    .section-button-2{
+        font-size: 13px;
+        width: 150px;
+    }
+    .section-2{
+        height: 1110px;
+    }
+}
+@media (max-width:740px) {
+    .container-section-anuncio{
+        top: 35%;
+    }
+    .container-section-anuncio > h1{
+        font-size: 30px;
+    }
+    .container-section-anuncio > h2{
+        font-size: 20px;
+    }
+    .section-button-1{
+        font-size: 13px;
+        width: 140px;
+        height: 40px;
+    }
+    .section-button-2{
+        font-size: 13px;
+        width: 140px;
+        height: 40px;
+    }
+    .section-2{
+        height: 2200px;
+    }
+}
+
+.container-section-2{
+    position: absolute;
+}
+.box-title{
+    font-family: 'DynaPuff', cursive;
+    color: white;
+    text-align: center;
+}
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card-box-1{
+    border-radius: 15px;
+    background-color:  rgb(24, 26, 27);
+    width: 330px;
+    height: 300px;
+    margin: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.card-logo-2 > img{
+    width: 70px;
+    height: 50px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-email{
+    color:rgb(228, 128, 124);
+}
+.card-description{
+    color: white;
+}
+.card-date{
+    color: white;
+}
+.card-box-1{
+    padding: 10px;
+}
+.card-user{
+    color: white;
+}
+
+/**************section 3***************/
+
+.section-3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+ 
+}
+
+.container-section-3 >img{
+    
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+   
+}
+.text-container-section-3{
+    /* background-color: black; */
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+
+    /* bottom: 30%; */
+}
+.text-container-section-3>h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.container-button-section-3>button{
+    background-color: #c94f17;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    /* right: 3%; */
+}
+
